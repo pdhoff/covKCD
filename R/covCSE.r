@@ -6,6 +6,8 @@
 #' @param a a numeric scalar.
 #' @param p a positive integer.
 #' 
+#' @return a scalar 
+#' 
 #' @author Peter Hoff
 #' @export
 lmvgamma<-function(a,p){  

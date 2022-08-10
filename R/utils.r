@@ -6,6 +6,9 @@
 #' @param p1 the row dimension.
 #' @param p2 the column dimension.
 #' 
+#' @return a four-way array where entry i1,j1,i2,j2 gives the covariance 
+#' between element i1,j1 and element i2,j2 of a random matrix.
+#' 
 #' @author Peter Hoff
 #'
 #' @examples
@@ -30,6 +33,8 @@ cm2ca<-function(S,p1,p2){
 #' Reshape a covariance array to a covariance matrix.
 #' 
 #' @param A a covariance array of dimension p1*p2*p1*p2. 
+#'  
+#' @return a p1*p2 by p1*p2 covariance matrix.
 #'
 #' @author Peter Hoff
 #'
@@ -59,7 +64,10 @@ ca2cm<-function(A){
 #' of dimension p1*p2.
 #' @param use a character string giving method for dealing with missing 
 #' values, fed to the \code{\link[stats]{cov}} function.  
-#' 
+#'
+#' @return a p1*p2 by p1*p2 sample covariance matrix of the n vectorized data
+#' matrices.
+#'  
 #' @author Peter Hoff 
 #' 
 #' @examples 
@@ -90,6 +98,8 @@ mcov<-function(Y,use="everything"){ cov(t(apply(Y,1,c)),use=use) }
 #' 
 #' @param M a positive semidefinite matrix. 
 #'
+#' @return a positive semidefinite matrix. 
+#' 
 #' @author Peter Hoff 
 #' 
 #' @examples
@@ -109,7 +119,9 @@ msqrt<-function(M)
 #' 
 #' Compute the inverse of the symmetric square root of a matrix.
 #' 
-#' @param M a positive definite matrix. 
+#' @param M a positive definite matrix.  
+#' 
+#' @return a positive definite matrix.
 #'
 #' @author Peter Hoff 
 #' 

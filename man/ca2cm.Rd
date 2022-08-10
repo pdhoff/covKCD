@@ -9,6 +9,9 @@ ca2cm(A)
 \arguments{
 \item{A}{a covariance array of dimension p1*p2*p1*p2.}
 }
+\value{
+a p1*p2 by p1*p2 covariance matrix.
+}
 \description{
 Reshape a covariance array to a covariance matrix.
 }

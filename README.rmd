@@ -11,7 +11,7 @@ output: github_document
 Let $Y_1,\ldots,Y_n$ be a sample of $p_1\times p_2$ matrices, and 
 let $y_1,\ldots,y_n$ be their vectorizations. The sample covariance 
 matrix $S$ of $y_1,\ldots, y_n$ is a $p\times p$ positive semidefinite 
-matrix, where $p=p_1p_2$. 
+matrix, where $p=p_1 \cdot p_2$. 
 The Kronecker-core decomposition $(K,C)$ of the covariance matrix $S$ is 
 a matrix factorization of the form 
 \[

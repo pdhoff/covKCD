@@ -13,6 +13,10 @@ of dimension p1*p2.}
 \item{use}{a character string giving method for dealing with missing 
 values, fed to the \code{\link[stats]{cov}} function.}
 }
+\value{
+a p1*p2 by p1*p2 sample covariance matrix of the n vectorized data
+matrices.
+}
 \description{
 Compute the covariance matrix of a sample of data matrices.
 }

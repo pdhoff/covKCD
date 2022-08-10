@@ -13,6 +13,10 @@ cm2ca(S, p1, p2)
 
 \item{p2}{the column dimension.}
 }
+\value{
+a four-way array where entry i1,j1,i2,j2 gives the covariance 
+between element i1,j1 and element i2,j2 of a random matrix.
+}
 \description{
 Reshape a covariance matrix to a covariance array.
 }

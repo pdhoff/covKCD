@@ -9,6 +9,9 @@ msqrtInv(M)
 \arguments{
 \item{M}{a positive definite matrix.}
 }
+\value{
+a positive definite matrix.
+}
 \description{
 Compute the inverse of the symmetric square root of a matrix.
 }

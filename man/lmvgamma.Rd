@@ -11,6 +11,9 @@ lmvgamma(a, p)
 
 \item{p}{a positive integer.}
 }
+\value{
+a scalar
+}
 \description{
 Compute the logarithm of the multivariate gamma function 
 \eqn{\log \Gamma_p(a)}.

@@ -1,11 +1,9 @@
 Package: covKCD
 Title: Covariance Estimation for Matrix Data with the Kronecker-Core Decomposition
 Version: 0.1
-Description: Matrix-variate covariance estimation via the Kronecker-core decomposition. Computes the Kronecker and core covariance matrices corresponding to an arbitrary covariance matrix, and provides an empirical Bayes covariance estimator that adaptively shrinks towards the space of separable covariance matrices. For details, see 'Core Shrinkage Covariance Estimation for Matrix-variate data' by Hoff, McCormack and Zhang <arXiv:2207.12484>.
-Date: 2022-07-26
-Author: Peter Hoff
-Maintainer: Peter Hoff <peter.hoff@duke.edu> 
+Description: Matrix-variate covariance estimation via the Kronecker-core decomposition. Computes the Kronecker and core covariance matrices corresponding to an arbitrary covariance matrix, and provides an empirical Bayes covariance estimator that adaptively shrinks towards the space of separable covariance matrices. For details, see Hoff, McCormack and Zhang (2022) <arXiv:2207.12484> "Core Shrinkage Covariance Estimation for Matrix-variate data".
+Date: 2022-08-10
+Authors@R: 
+  person("Peter","Hoff",,"peter.hoff@duke.edu", role = c("aut", "cre")) 
 License: GPL-3
-Suggests: knitr
-VignetteBuilder: knitr
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1

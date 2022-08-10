@@ -9,6 +9,9 @@ msqrt(M)
 \arguments{
 \item{M}{a positive semidefinite matrix.}
 }
+\value{
+a positive semidefinite matrix.
+}
 \description{
 Compute the symmetric square root of a matrix.
 }
